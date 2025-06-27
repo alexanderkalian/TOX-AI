@@ -26,7 +26,7 @@ for assay in assays:
         f.write('SMILES,CAS,Activity,AC50')
     
     # Defines filename, where assay data can be found.
-    filename = '../0 - Selecting Assays/Assay Data/Assay List '+assay+'-2024-01-14.csv'
+    filename = '../00_selecting_assays/assay_data/Assay List '+assay+'-2024-01-14.csv'
     
     # Creates dataframe for this data.
     df = pd.read_csv(filename)
