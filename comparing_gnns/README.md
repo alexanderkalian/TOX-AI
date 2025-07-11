@@ -1,6 +1,6 @@
 This folder contains scripts for a soon to be published study, on comparing different GNN architectures on their performance over various toxicological assay datasets.
 
-The following folders are so far included:
+The following subfolders are so far included:
 
 | Folder Name | Purpose |
 |----------|---------|
