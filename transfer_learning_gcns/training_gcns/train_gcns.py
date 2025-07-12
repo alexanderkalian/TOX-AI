@@ -366,7 +366,7 @@ for endpoint, filename in zip(endpoints, files):
                                     str(test_metrics['MCC'])+','+
                                     str(train_auc)+','+str(test_auc))
                 
-                        # Saves model state, if new minimal loss is reached.
+                        # Saves model state, if higher overall accuracy is reached.
                         if len(test_acc_scores) > 1:
                             #print(test_auc_scores[-1], min(test_auc_scores[:-1]))
                             if test_acc_scores[-1] > max(test_acc_scores[:-1]):
