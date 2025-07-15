@@ -5,6 +5,6 @@ The TOX-AI project (2021-2025), jointly funded by BBSRC and the Food Standards A
 
 If you wish to use any of the code, then please cite their associated publications.
 <p align="center">
-  <img src="other/tox-ai_logo.png" alt="Project Logo" width="400"/>
+  <img src="visual_design/tox-ai_logo_2.png" alt="Project Logo" width="400"/>
 </p>
 
