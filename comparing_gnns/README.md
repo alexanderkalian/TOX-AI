@@ -9,3 +9,5 @@ The following subfolders are so far included:
 |  `02_bayesian_optimisation`  | Scripts for carrying out Bayesian optimisations of GCNs, GATs and GINs, over the datasets, along with associated output files containing output data and results. |
 
 No adjustments to the data files should be needed - assay selection and data pre-processing is already done. If you wish to carry out your own Bayesian optimisations independently, for either GCNs, GATs or GINs, please navigate to the `02_bayesian_optimisation` folder and run `GCN_bayesian_optimisation.py`, `GAT_bayesian_optimisation.py` and `GIN_bayesian_optimisation.py`, respectively.
+
+The publication associated with this code is _in-press_ - please wait for it to be published and listed here, for citation, before using any of the software under this folder.
