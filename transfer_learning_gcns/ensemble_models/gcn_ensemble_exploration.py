@@ -19,7 +19,9 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 endpoint = 'dili'  # Choose endpoint: 'dili', 'diri', or 'dict'
 fold_nums = list(range(5))  # Five-fold cross-validation folds
 folds_data = f'../datasets/training_datasets/{endpoint}_folds.csv'
-best_model_file = f'../training_gcns/{endpoint}/results/round_1/{endpoint}_pretrained_best_model.pth'
+best_model_file = f'../training_gcns/{endpoint}/results/round_1/{endpoint}_pretrained_CEETOX_H295R_OHPROG_values_fold0_best_model.pth'
+
+best_model_fold = int((best_model_file.split('fold')[1]).split().split('_')[0])
 
 # Load atom properties dictionary
 with open(f'../{endpoint}/atom_properties_dict.json', 'r') as f:
@@ -170,7 +172,7 @@ for fold_n in fold_nums:
 # --- Evaluate Best Global Model ---
 print('Best model evaluation:')
 df = pd.read_csv(folds_data)
-df = df[df['fold'] == 4]
+df = df[df['fold'] == best_model_fold]
 test_SMILES = list(df['smiles'])
 test_y = list(df[endpoint.upper()])
 
