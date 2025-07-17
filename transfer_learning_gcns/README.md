@@ -7,6 +7,7 @@ The following folders are so far included:
 | `datasets` | Pre-processed assay datasets for pretraining (i.e. for later transfer learning), as well as the main training tasks, for the GCN models to use. |
 | `pretraining_gcns` | Scripts and output data files for building node features, pretraining all GCNs and finding the best performing GCN trained states. |
 | `training_gcns` | Scripts and associated data files for training all GCNs on DILI, DIRI and DICT, starting from a variety of different pre-trained states (and a lack of) - i.e. transfer learning. |
+| `ensemble_models` | Script for exploring ensemble voting classifiers of the trained models - both via equal voting and weighted voting methods. |
 
 If you wish to run the scripts, then you may do as follows:
 
