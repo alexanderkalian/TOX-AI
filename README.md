@@ -21,4 +21,4 @@ Additionally, 2 folders of experimental scripts are provided - intended to publi
 | Topic | Folder | Purpose |
 |----------|---------|---------|
 | Generative AI | `generative_ai_experiments` | Exploratory work on generative AI (mostly VAEs and GANs). |
-| Transformer models | `transformer_experiments` | Exploratory work on transformers, for processing SMILES strings. |
+| Transformer Models | `transformer_experiments` | Exploratory work on transformers, for processing SMILES strings. |
