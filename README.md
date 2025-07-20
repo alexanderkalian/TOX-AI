@@ -15,3 +15,10 @@ If you wish to use any of the code, then please cite their associated publicatio
 | Mutagenicity Models | `mutagenicity` | Development of simple AI-powered QSAR models, to predict Ames mutagenicity, using MLPs and innovative forms of feature engineering. | <sub>[_Kalian et al. (2023) (1)_](https://doi.org/10.3390/toxics11070572)</sub><br><sub>[_Kalian et al. (2023) (2)_](https://doi.org/10.1016/B978-0-443-15274-0.50432-7)</sub> |
 | Transfer Learning on GCNs / SARMs Case Study | `transfer_learning_gcns` | Predict organ-specific toxicity of SARMs, using GCNs, with exploration of benefits of transfer learning via pre-training on unrelated biomedical datasets. | _in-press_ |
 | GNNs Comparison | `comparing_gnns` | Compare the performance and implications of different GNN architectures, over varied toxicological assay data environments. | _in-press_ |
+
+Additionally, 2 folders of experimental scripts are provided - intended to publish exploratory work, while not representing readily deployable models:
+
+| Topic | Folder | Purpose |
+|----------|---------|---------|
+| Generative AI | `generative_ai_experiments` | Exploratory work on generative AI (mostly VAEs and GANs). |
+| Transformer models | `transformer_experiments` | Exploratory work on transformers, for processing SMILES strings. |
