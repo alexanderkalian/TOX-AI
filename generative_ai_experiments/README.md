@@ -1,1 +1,1 @@
-This folder contains Python scripts for generative AI algorithms that were preliminariily explored, via simplified implementations. This folder and its contents should be thought of as an open-source scrapheap of moderately functional but highly non-optimal generative AI scripts.
+This folder contains Python scripts for generative AI algorithms that were preliminarily explored, via simplified implementations. This folder and its contents should be thought of as an open-source scrapheap of moderately functional but highly non-optimal generative AI scripts.
