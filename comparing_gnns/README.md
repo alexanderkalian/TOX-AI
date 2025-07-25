@@ -10,6 +10,6 @@ The following subfolders are so far included (visualisation scripts also due to 
 
 No adjustments to the data files should be needed - assay selection and data pre-processing is already done. If you wish to carry out your own Bayesian optimisations independently, for either GCNs, GATs or GINs, please navigate to the `02_bayesian_optimisation` folder and run `GCN_bayesian_optimisation.py`, `GAT_bayesian_optimisation.py` and `GIN_bayesian_optimisation.py`, respectively.
 
-The publication associated with this code is _in-press_ - but a pending pre-print may be cited as:
+The publication associated with this code can be found [here](https://arxiv.org/abs/2507.17775) and may cited as:
 
-_Kalian, A.D., Otte, L., Lee, J., Benfenati, E., Dorne, J.L.C.M., Potter, C., Osborne, O.J., Guo, M., and Hogstrand, C, 2025. Comparison of Optimised Geometric Deep Learning Architectures, over Varying Toxicological Assay Data Environments. arXiv preprint (in-press)._
+_Kalian, A.D., Otte, L., Lee, J., Benfenati, E., Dorne, J.L.C.M., Potter, C., Osborne, O.J., Guo, M., and Hogstrand, C, 2025. Comparison of Optimised Geometric Deep Learning Architectures, over Varying Toxicological Assay Data Environments. arXiv preprint arXiv:2507.17775_
