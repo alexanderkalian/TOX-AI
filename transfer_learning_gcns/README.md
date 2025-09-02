@@ -19,4 +19,6 @@ If you wish to run the scripts, then you may do as follows:
 | Explore Ensemble Models | **1.** Ensure that training of the relevant GCNs is complete.<br><br>**2.** Open `ensemble_models/gcn_ensemble_exploration.py` and configure desired endpoint, as well as the best single model that you wish to use as a comparative benchmark.<br><br>**3.** Run `ensemble_models/gcn_ensemble_exploration.py` - results will be provided in the `ensemble_models/ensemble_results` subfolder. |
 
 
-The publication associated with this code is _in-press_ - please wait for it to be published and listed here, for citation, before using any of the software under this folder.
+If using any of these models, please cite [the following publication](https://doi.org/10.1101/2025.08.27.672581): 
+
+_Kalian, A.D., Silva, A.C., Lee, J., Dorne, J.L.C.M., Potter, C., Benfenati, E., Osborne, O.J., Guo, M. and Hogstrand, C. (2025) ‘Predicting organ-specific toxicity of selective androgen receptor modulators using transfer learning on graph convolutional networks’, bioRxiv. https://doi.org/10.1101/2025.08.27.672581_
